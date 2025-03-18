@@ -13,7 +13,7 @@ type cookie = {
 };
 
 function App() {
-  const [allCookies, setAllCookies] = useState<cookie[]>([
+  const [allCookies, _] = useState<cookie[]>([
     {
       title: "🍪 Cookie de Alto Desempeño",
       desc: "Papito, esta cookie requiere un procesador mínimo de 12 núcleos y 64GB de RAM. No es nuestro problema si sigues usando una licuadora.",
